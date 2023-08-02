@@ -1,7 +1,5 @@
-const Result=()=>{
-   return <p>
-       Result:
-   </p>
+    function Result({ calculationResult }) {
+    return <p>Result: {calculationResult}</p>;
 }
 
-export default Result
+export default Result;
